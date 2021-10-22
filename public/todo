@@ -1,0 +1,82 @@
+// 20-09-2021
+frontend:
+ -basic layout is done
+ - sidebar and dashboard framework is added
+
+backend:
+ - db structure & data's adding - completed db structure - both
+ - login page(sanjay) & idle timeout(ishu) - completed
+
+// 21-09-2021
+backend team:
+ - added 404error page.
+ - backdrop and card is added   for reuse purpose
+ - added bootstrap spinner
+ - added foodDB, groceryDB, firebase api codes, slight 
+ changes needed, that can be done in further development
+ - added logout functionality in navbar logout button
+
+frontend team:
+ - added food items main page
+ - completed add new page for food items
+ - completed card view for food items
+
+
+22/09/2021
+priority:
+frontend
+ - adding food item ui
+
+backend:
+ - to complete, adding food item to db
+
+23/09/2021
+ - doing merit bodhi stuffs
+ - if branches:
+   - then in each food item, add a field like
+   - foodAvailable: [
+     {
+     branch: chennai,
+     quantity: 10
+     },
+     {
+     branch: vellore,
+     quantity: 20
+     } 
+   ]
+
+
+12/10/2021:
+currentItem: {id, index (1)}
+items = [
+  {
+    id: productId,
+    name: ""
+  }, 
+  {
+    id: dummyId
+  }
+  ];
+
+
+// 18/10/2021
+ - add food items
+
+
+learning:
+i) set img from input
+<img id="output" src="" width="100" height="100">
+<input name="photo" type="file" accept="image/*" onchange="document.getElementById('output').src = window.URL.createObjectURL(this.files[0])">
+
+
+
+
+
+
+Dry/Baking Goods – rice,cereals, flour, sugar, pasta, mixes
+fruits, vegetables
+Canned goods-biscuits,choc,all snacks
+Beverages(all kind og drinks)
+Personal Care – shampoo, soap, hand soap, shaving cream
+Cleaners – all- purpose, laundry detergent, dishwashing liquid/detergent
+Others
